@@ -1,6 +1,8 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+//Two String are said to be anagram if we can form one string by arranging the characters of another string.
+
 public class anagrams {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -16,7 +16,7 @@ class MyMath{
         PerformanceOperation po = (a) ->{
             if ( a == 1) return 1;
             else {
-                for ( int i=2; i <a/2+1;){
+                for ( int i=2; i <a/2+1; i++){
                     if ( (a%i) ==0 ) return 1;
                 }
                 return 0;
@@ -68,7 +68,7 @@ public class LamdaDemo {
             else if (ch==3) {
                 op = ob.isPalindrome();
                 ret = ob.checker(op,num);
-                ans = (ret == 0)? "PALINDROME" : "PALINDROME";
+                ans = (ret == 0)? "PALINDROME" : "NOT PALINDROME";
             }
             System.out.println(ans);
         }
